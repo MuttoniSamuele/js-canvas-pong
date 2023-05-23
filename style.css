@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.game-wrapper, #game-canvas, .points-txt, #start-txt {
+  font-family: "Press Start 2P";
+  position: absolute;
+}
+
+.game-wrapper {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 600px;
+}
+
+#game-canvas {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+.game-txt {
+  color: white;
+  font-size: 1.7rem;
+  width: 100%;
+  text-align: center;
+  user-select: none;
+}
+
+.points-txt {
+  top: 5%;
+}
+
+#start-txt {
+  top: 35%;
+}
